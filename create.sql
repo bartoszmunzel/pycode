@@ -25,5 +25,5 @@ CREATE TABLE pycode.salaries (
   amount VARCHAR(45) NOT NULL,
   employee_id VARCHAR(45) NOT NULL,
   date VARCHAR(45) NOT NULL,
-  PRIMARY KEY (id, amount),
+  PRIMARY KEY (id),
   UNIQUE INDEX id_UNIQUE (id ASC) VISIBLE);
